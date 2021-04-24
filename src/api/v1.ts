@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { taskRouter } from '../modules/tasks/routes';
+import taskRouter from '../modules/tasks/routes';
 
 const v1Router = express.Router();
 

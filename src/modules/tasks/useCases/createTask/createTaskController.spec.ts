@@ -3,7 +3,6 @@ const request = require('supertest');
 import { setupDatabase } from '../../../../../tests';
 import { app } from '../../../../app';
 import { Task } from '../../../../database/models/taskModel';
-import { createTaskController } from './createTaskController';
 
 beforeAll(setupDatabase);
 
